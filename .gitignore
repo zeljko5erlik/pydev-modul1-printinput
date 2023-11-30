@@ -119,6 +119,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+print-input/
 
 # Spyder project settings
 .spyderproject
