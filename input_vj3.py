@@ -1,0 +1,12 @@
+first_name = input('Upisite vase ime: ')
+last_name = input('Upisite vase prezime: ')
+year_of_birth = int(input('Upisite godinu vaseg rodenja: '))
+country_of_birth = input('Upisite zemlju vaseg rodjenja: ')
+height = float(input('Upisite vasu visinu: '))
+employed = input('Upišite vas radni status (Da/Ne): ')
+gender = input('Upisite vas spol: ')
+
+print('Ime i prezime:', first_name, last_name, 'spol', gender)
+print('Roden:', year_of_birth, 'u:', country_of_birth)
+print('Zaposlen:', employed)
+print('Tezina:', height, 'cm')
